@@ -1,0 +1,91 @@
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">Create Element</button>
+</body>
+<script>
+// function createElement(){
+//     var txt=document.createElement("input")
+//     txt.setAttribute("type","text")
+//     txt.setAttribute("class","control")
+//     return txt;
+// }
+
+// document.getElementById("btn").addEventListener("click",function(){
+
+//     var e=createElement()
+//     document.body.appendChild(e)
+
+// })
+
+
+</script>
+
+
+</html>
+ -->
+
+
+ 
+
+<html>
+    <head>
+        <script type="text/javascript">
+        function Result()
+        {
+            document.getElementById("outTable").insertRow(-1).innerHTML = '<td></td><td></td><td></td><td></td><td></td>';
+        }
+        function outTable()
+            {
+                table.deleteRow(rIndex);
+            
+            
+            }
+              
+        // function Elements(){
+        //     document.getElementById("outTable").insertRow(+1).innerHTML = '<td></td><td></td>';
+        // }
+        
+        </script>
+    </head>
+
+    <body>       
+        <table id="outTable" border="4px">
+            <tr>
+                <th>id </th>
+                <th>name</th>
+                <th>mail</th>
+                <th>mobile</th>
+               
+                <th>
+                <button type="button" onclick="Result()">ADD</button></th>
+            
+          
+            <th>
+                <button onclick="outTable();">Remove</button>
+            </tr>
+           
+        </table>
+        <br />
+               
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
