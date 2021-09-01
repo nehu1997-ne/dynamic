@@ -49,9 +49,9 @@
             
             }
               
-        // function Elements(){
-        //     document.getElementById("outTable").insertRow(+1).innerHTML = '<td></td><td></td>';
-        // }
+        function Elements(){
+            document.getElementById("outTable").deleteRow(+1).innerHTML = '<td></td><td></td>';
+        }
         
         </script>
     </head>
@@ -69,7 +69,7 @@
             
           
             <th>
-                <button onclick="outTable();">Remove</button>
+                <button onclick="Elements();">Remove</button>
             </tr>
            
         </table>
